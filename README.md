@@ -3,7 +3,7 @@
 ## Запуск production сборки проекта
     - npm run production
 ## Структура папок
-- gulpproject
+- GulpStart
     - app
         - common
             - fonts
