@@ -1,19 +1,32 @@
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 50px 0;
-    border-bottom: 1px solid color('gray-light');
+.header{
+    
+   /* padding: 50px 0;
+    border-bottom: 1px solid color('gray-light'); */
 
-    &__btns {
+    &__content{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    padding-top: 45px;
+
+    &__btns{
         display: flex;
 
-        .icon-btn {
+        .icon-btn{
             margin-right: 40px;
 
-            &:last-child {
+            &:last-child{
                 margin-right: 0;
             }
         }
+    }
+
+    .nav{
+        border-top: 1px solid color('gray-light');
+        border-bottom: 1px solid color('gray-light');
+        margin-top: 45px;
+        padding-top: 20px;
+        padding-bottom: 20px;
     }
 }

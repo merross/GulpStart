@@ -132,7 +132,7 @@ gulp.task("watch", () => {
 gulp.task(
 	"default",
 	gulp.series(
-		gulp.parallel("templates", "styles", "scripts", "images", "copy"),
+		gulp.parallel("templates", "icons", "styles", "scripts", "images", "copy"),
 		gulp.parallel("watch", "server")
 	)
 );
@@ -141,6 +141,6 @@ gulp.task(
 	"production",
 	gulp.series(
 		"clear",
-		gulp.parallel("templates", "styles", "scripts", "images")
+		gulp.parallel("templates", "icons", "styles", "scripts", "images")
 	)
 );
