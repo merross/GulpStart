@@ -4,8 +4,8 @@ include ../icon-btn/icon-btn
 
 mixin header()
     header.header
-        +logo('assets/images/logo.png')
+        +logo('assets/images/logo.svg')
         +search()
         header.header__btns
-            +icon-btn('assets/images/heart.png', 10)
-            +icon-btn('assets/images/basket.png', 2)
+            +icon-btn('assets/images/favourites.svg', 10)(src='favourites')
+            +icon-btn('assets/images/cart.png', 2)(src='cart')

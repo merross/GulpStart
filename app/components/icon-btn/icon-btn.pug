@@ -1,4 +1,4 @@
-mixin icon-btn(icon, count)
+mixin icon-btn(src, count)
     button.icon-btn
-        span.icon-btn__icon= icon
-        span= count
+        img.icon-btn__icon(src=src, alt=attributes.src)
+        span.icon-btn__count= count
